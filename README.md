@@ -6,6 +6,10 @@ Si estás en 1ero, probablemente uses un IDE xd, así que te puedes saltar este 
 
 Si no, haciendo: `g++ -o "ejecutable" "fichero.cpp"` generamos el ejecutable del fichero deseado
 
+## Notas
+
+Realmente, la forma de programación que tienen estos programas es muy básica y muy "espagueti". El no uso de funciones y el uso de números mágicos es una mala praxis. Pero lo he intentado hacer lo más simple posible para que se entienda lo mejor que se pueda.  Se aceptan sugerencias y posibles correcciones y/o optimizaciones xd
+
 ## Descripción de los ficheros:
 
 (Todos los ejemplos se prueban con altura = 10)
@@ -50,9 +54,3 @@ Si no, haciendo: `g++ -o "ejecutable" "fichero.cpp"` generamos el ejecutable del
 [`ejemplo8.cpp`](ejemplo8.cpp)  
 
 ![Resultado](img/ej8.png) 
-
-[`ejemplo9.cpp`](ejemplo9.cpp)  
-
-![Resultado](img/ej9.png) 
-
-
