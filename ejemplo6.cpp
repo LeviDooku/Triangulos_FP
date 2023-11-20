@@ -32,7 +32,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXX
 
 int main(){
     const char equis = 'X';
-    const char espacio = '-';
+    const char espacio = ' ';
 
     int n = 0;
 

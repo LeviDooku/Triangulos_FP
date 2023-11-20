@@ -31,7 +31,7 @@ using namespace std;
 
 int main(){
     const char asterisco = '*';
-    const char espacio = '-';
+    const char espacio = ' ';
 
     int n = 0;
 
