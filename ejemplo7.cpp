@@ -43,7 +43,7 @@ using namespace std;
 NOTA:
 
 Me suena que había una modificación de este ejercicio que pedía el ingreso de un impar como altura y lograr
-que la figura fuera altura/2, altura%2 (asterisco central en el centro), altura/2
+que la figura fuera altura/2, altura%2 (asterisco central), altura/2
 
 Esto se puede lograr controlando el número de iteraciones en el bucle más exterior de cada parte de la figura
 */
