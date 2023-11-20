@@ -21,9 +21,38 @@ Si no, haciendo: `g++ -o "ejecutable" "fichero.cpp"` generamos el ejecutable del
 ![Resultado](img/octavo.png) 
 ![Resultado](img/septimo.png) 
 ![Resultado](img/Noveno.png) 
-![Resultado](img/decimo.png) 
+![Resultado](img/decimo.png)  
 
+[`ejemplo2.cpp`](ejemplo2.cpp)  
 
+![Resultado](img/ej2.png)  
 
+[`ejemplo3.cpp`](ejemplo3.cpp)  
+
+![Resultado](img/ej3.png)  
+
+[`ejemplo4.cpp`](ejemplo4.cpp)  
+
+![Resultado](img/ej4.png) 
+
+[`ejemplo5.cpp`](ejemplo5.cpp)  
+
+![Resultado](img/ej5.png) 
+
+[`ejemplo6.cpp`](ejemplo6.cpp)  
+
+![Resultado](img/ej6.png)  
+
+[`ejemplo7.cpp`](ejemplo7.cpp)  
+
+![Resultado](img/ej7.png) 
+
+[`ejemplo8.cpp`](ejemplo8.cpp)  
+
+![Resultado](img/ej8.png) 
+
+[`ejemplo9.cpp`](ejemplo9.cpp)  
+
+![Resultado](img/ej9.png) 
 
 
