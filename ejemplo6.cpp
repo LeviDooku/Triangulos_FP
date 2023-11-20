@@ -1,3 +1,11 @@
+/////////////////////////////
+//Pedro Velasco Santana,   //
+//2D - Ing. Infor. UGR     //
+//File: ejemplo6.cpp       //
+/////////////////////////////
+
+//g++ -o prueba ejemplo6.cpp; ./prueba
+
 #include <iostream>
 
 using namespace std;
@@ -56,7 +64,7 @@ int main(){
 
     //Pirámide inferior
 
-    for(int i = n-1; i >= 1; --i){
+    for(int i = n-1; i >= 1; --i){ //Hacemos n-1 para que esta pirámide sea una fila más pequeña que la anterior (le damos el aspecto de rombo)
         for(int j = 1; j <= n - i; ++j)
             cout << espacio;
         for(int j = 1; j <= (i*2)-1; ++j)

@@ -2,9 +2,7 @@
 
 ## Sobre la compilación
 
-Si estás en 1ero, probablemente uses un IDE xd, así que te puedes saltar este paso.  
-
-Si no, haciendo: `g++ -o "ejecutable" "fichero.cpp"` generamos el ejecutable del fichero deseado
+Haciendo: `g++ -o "ejecutable" "fichero.cpp"` generamos el ejecutable del fichero deseado
 
 ## Notas
 

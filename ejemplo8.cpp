@@ -1,3 +1,11 @@
+/////////////////////////////
+//Pedro Velasco Santana,   //
+//2D - Ing. Infor. UGR     //
+//File: ejemplo7.cpp       //
+/////////////////////////////
+
+//g++ -o prueba ejemplo8.cpp; ./prueba
+
 #include <iostream>
 
 using namespace std;
@@ -78,6 +86,8 @@ using namespace std;
             cout << mayus_O;
         cout << endl;
     }
+
+    //Fila inferior de asteriscos + O
 
     for(int i = 1; i <= n/2 - 1; i++)
         cout << espacio;

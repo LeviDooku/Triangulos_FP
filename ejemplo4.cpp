@@ -1,3 +1,11 @@
+/////////////////////////////
+//Pedro Velasco Santana,   //
+//2D - Ing. Infor. UGR     //
+//File: ejemplo4.cpp       //
+/////////////////////////////
+
+//g++ -o prueba ejemplo4.cpp; ./prueba
+
 #include <iostream>
 
 using namespace std;
@@ -24,13 +32,15 @@ int main(){
 
     int n = 0;
 
-    cout << "Ingrese un entero positivo (>0): ";
+    cout << "Ingrese un entero positivo (>5): ";
     cin >> n;
 
-    while(n <= 0){
+    while(n <= 5){
         cout << "Dato no válido, pruebe de nuevo: ";
         cin >> n;
     }
+
+    //Básicamente es ir concatenando triángulos con los caracteres especificados
 
     for(int i = 1; i <= n; ++i){
 

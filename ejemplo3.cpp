@@ -1,3 +1,11 @@
+/////////////////////////////
+//Pedro Velasco Santana,   //
+//2D - Ing. Infor. UGR     //
+//File: ejemplo3.cpp       //
+/////////////////////////////
+
+//g++ -o prueba ejemplo3.cpp; ./prueba
+
 #include <iostream>
 
 using namespace std;
@@ -43,27 +51,29 @@ int main(){
 
     int n = 0;
 
-    cout << "Ingrese un entero positivo (>0): ";
+    cout << "Ingrese un entero positivo (>2): ";
     cin >> n;
 
-    while(n <= 0){
+    while(n <= 2){
         cout << "Dato no válido, pruebe de nuevo: ";
         cin >> n;
     }
 
     for(int i = n; i >= 1; --i){
-        for(int j = 1; j <= n - i; ++j)
+        for(int j = 1; j <= n - i; ++j) //Espacios
             cout << espacio;
-        cout << b_invertida;
-        for(int j = 1; j <= i*2; ++j){
+        cout << b_invertida; //Diagonal de '\'
+        for(int j = 1; j <= i*2; ++j){  //Pseudo - pirámide de letras
             cout << letra;
             letra++;
             if(letra == 'z')
                 letra = 'a';
         }
-        cout << b_normal;
+        cout << b_normal; //Diagonal de '/'
         cout << endl;
     }
+
+    //Fila vertical de asteriscos
     
     for(int i = 1; i <= n; ++i){
         for(int j = 1; j <= n; ++j)

@@ -1,3 +1,11 @@
+/////////////////////////////
+//Pedro Velasco Santana,   //
+//2D - Ing. Infor. UGR     //
+//File: ejemplo2.cpp       //
+/////////////////////////////
+
+//g++ -o prueba ejemplo2.cpp; ./prueba
+
 #include <iostream>
 
 using namespace std;
@@ -24,7 +32,8 @@ pantalla la siguiente figura (en el ejemplo, n=17).
 *****************
 */
 
-int main() {
+int main(){
+
     const char guion = '-';
     const char asterisco = '*';
     const char suma = '+';
@@ -40,17 +49,18 @@ int main() {
         cin >> n;
     }
 
+    //Primera fila de asteriscos
     for(int i = 0; i <= n; ++i)
         cout << asterisco;
 
     cout << endl;
     
     for(int i = 1;  i <= n; ++i){
-        for(int j = 1; j <= n - i; ++j)
+        for(int j = 1; j <= n - i; ++j) //Imprimimos los guiones
             cout << guion;
-        cout << asterisco;
-        for(int j = 1; j <= i; ++j){
-            if(i%2 != 0)
+        cout << asterisco; //Así hacemos la diagonal de asteriscos
+        for(int j = 1; j <= i; ++j){ //Impresión de las filas
+            if(i%2 != 0) //Si la fila es impar se imprime '+', si no, las letras
                 cout << suma;
             else{
                 cout << letra;
@@ -62,8 +72,7 @@ int main() {
         cout << endl;
     }
 
+    //Fila inferior de asteriscos
     for(int i = 0; i <= n; ++i)
         cout << asterisco;
-
-    cout << endl << "La figura tiene una altura de: " << n;
 }
