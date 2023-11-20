@@ -18,6 +18,10 @@ Si no, haciendo: `g++ -o "ejecutable" "fichero.cpp"` generamos el ejecutable del
 ![Resultado](img/cuarto.png) 
 ![Resultado](img/quinto.png) 
 ![Resultado](img/sexto.png) 
+![Resultado](img/octavo.png) 
+![Resultado](img/septimo.png) 
+![Resultado](img/Noveno.png) 
+![Resultado](img/decimo.png) 
 
 
 
