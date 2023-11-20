@@ -3,8 +3,8 @@
 using namespace std;
 
 int main() {
-    char a_imprimir = '+';
-    char espacio = '-';
+    const char a_imprimir = '+';
+    const char espacio = ' ';
     int n = 0;
 
     cout << "Ingrese una altura (>0): ";
